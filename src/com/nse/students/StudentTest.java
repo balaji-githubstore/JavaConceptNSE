@@ -21,13 +21,11 @@ public class StudentTest {
 		stu2.schoolName = "Global school";
 		
 
-		System.out.println(stu1.studentId);
-		System.out.println(stu1.studentName);
-		System.out.println(stu1.studentMailId);
-		System.out.println(stu1.studentPercentage);
-		System.out.println(stu1.schoolName);
+		Student.printStudentDetail(stu1);
+		
+		Student.printStudentDetail(stu2);
 
-
+		Student.printStudentDetail(stu3);
 	}
 
 }

@@ -9,6 +9,15 @@ public class Student {
 	public String schoolName;
 	
 	
+	public static void printStudentDetail(Student stu)
+	{
+		System.out.println(stu.studentId);
+		System.out.println(stu.studentName);
+		System.out.println(stu.studentMailId);
+		System.out.println(stu.studentPercentage);
+		System.out.println(stu.schoolName);
+		System.out.println("****************************************");
+	}
 	
 	
 

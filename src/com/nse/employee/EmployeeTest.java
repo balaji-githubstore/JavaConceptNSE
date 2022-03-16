@@ -4,7 +4,7 @@ public class EmployeeTest {
 
 	public static void main(String[] args) {
 		
-	
+		Employee.companyName="NSE";
 		
 		Employee emp1=new Employee();
 		
@@ -15,14 +15,13 @@ public class EmployeeTest {
 		emp1.empId=1001;
 		emp1.empName="Jack";
 		emp1.empSalary=4500;
-		emp1.companyName="NSE";
+	
 		
-		
-		
-		System.out.println(emp1);
-		System.out.println(emp1.empId);
-		
-		System.out.println(emp2.empId);
+		emp2.empId=1002;
+		emp2.empName="Peter";
+		emp2.empSalary=5000;
+
+
 		
 		Employee.printEmployeeDetail(emp1); //pass by reference
 		

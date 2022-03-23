@@ -6,7 +6,7 @@ public class Student {
 	public String studentName;
 	public String studentMailId;
 	public double studentPercentage;
-	public String schoolName;
+	public static String schoolName;
 	
 	
 	public static void printStudentDetail(Student stu)
@@ -15,7 +15,7 @@ public class Student {
 		System.out.println(stu.studentName);
 		System.out.println(stu.studentMailId);
 		System.out.println(stu.studentPercentage);
-		System.out.println(stu.schoolName);
+		System.out.println(Student.schoolName);
 		System.out.println("****************************************");
 	}
 	

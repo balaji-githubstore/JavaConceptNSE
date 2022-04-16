@@ -6,32 +6,39 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		
+		Student.schoolName = "Global School";
 //		Employee e=new Employee();
 
 		Student stu1 = new Student();
 		Student stu2 = new Student();
 		Student stu3 = new Student();
 		
-		Student.schoolName = "Global School";
 		
-		stu1.studentId = 1001;
+		
+	
 		stu1.studentName = "Jack";
-		stu1.studentMailId = "jack@gmail.com";
-		stu1.studentPercentage = 45.2;
+		stu1.setStudentMailId("jack@gmail.com");	
+		stu1.setStudentPercentage(-45.5);
 		
-		
-		stu2.studentId=1002;
 		stu2.studentName="Peter";
-		stu2.studentMailId = "peter@gmail.com";
-		stu2.studentPercentage = 85.2;
+		stu2.setStudentMailId("peter@gmail.com");
+		
+		stu2.setStudentPercentage(99);
 
 		
-
-		Student.printStudentDetail(stu1);
+		stu1.displayStudentDetail();
+		stu2.displayStudentDetail();
+		stu3.displayStudentDetail();
 		
-		Student.printStudentDetail(stu2);
-
-		Student.printStudentDetail(stu3);
+		String mailid=stu2.getStudentMailId();
+		System.out.println(mailid);
+		
+		
+//		Student.printStudentDetail(stu1);
+//		Student.printStudentDetail(stu2);
+//		Student.printStudentDetail(stu3);
+		
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.nse.oops;
+package com.nse.oopssample;
 
 interface WebDriverDemo {
 	void quit();

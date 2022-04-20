@@ -1,5 +1,6 @@
 package com.nse.oops;
 
+
 class Doctor {
 	public String name;
 	public int docId;
